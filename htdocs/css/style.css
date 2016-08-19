@@ -132,3 +132,25 @@ tbody td, thead th {
     border-color: #1CA347;
 }
 /*END LOGIN FORM */
+
+/*THREE.JS DEMO */
+#threejs-demo {
+    font-family: Monospace;
+    background-color: #000000;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#threejs-demo #info {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    display:block;
+
+}
+
+#threejs-demo a { color: skyblue }
+        </style>

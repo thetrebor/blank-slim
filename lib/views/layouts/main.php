@@ -11,6 +11,10 @@
         <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="/css/style.css" rel="stylesheet">
 
+        <script src="/vendor/jquery/jquery.min.js"></script>
+        <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+        
+
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -60,8 +64,6 @@
             <?php require $template_dir . $template . '.php'; ?>
         </div>
 
-        <script src="/vendor/jquery/jquery.min.js"></script>
-        <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
         <script src="/vendor/requirejs/requirejs-2.1.15.js"></script>
         <script type="application/javascript">
         requirejs.config({
@@ -107,6 +109,18 @@
         </script>
 
 
+        <!--3D Related Scripts -->
+        <script src="/vendor/threejs/build/three.js"></script>
+        <script src="/vendor/threejs/examples/js/loaders/collada/Animation.js"></script>
+        <script src="/vendor/threejs/examples/js/loaders/collada/AnimationHandler.js"></script>
+        <script src="/vendor/threejs/examples/js/loaders/collada/KeyFrameAnimation.js"></script>
+
+        <script src="/vendor/threejs/examples/js/loaders/ColladaLoader.js"></script>
+
+        <script src="/vendor/threejs/examples/js/Detector.js"></script>
+        <script src="/vendor/threejs/examples/js/libs/stats.min.js"></script>
+
+        <!--Feature Specific Scripts -->
         <script src="/js/login.js"></script>
 
     </body>
