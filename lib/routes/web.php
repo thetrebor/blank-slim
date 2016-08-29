@@ -49,7 +49,7 @@ $app->get(
     }
 );
 $app->get(
-    '/page3/?',
+    '/editor/?',
     function () use ($app,$session){
         $app->render(
             'layouts/main.php',
@@ -57,7 +57,7 @@ $app->get(
                 'componentjs' => "/components/twitterjs.php",
                 'loggedin' => $session->get('loggedin'),
                 'template_dir' => BASE_PATH . "./views/",
-                'template' => 'page3'
+                'template' => 'editor'
             ] //array of parameters for template
         );
     }
