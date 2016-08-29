@@ -1,4 +1,12 @@
-# blank-slim
+# Desktop Hero
+
+Open Source Character Designer for 3D Printing
+
+See https://www.kickstarter.com/projects/263291121/desktophero-free-3d-printable-character-maker/
+
+##Starting with Landio Template in Bootstrap 4
+
+##Three.js
 
 ##Blank Slim template with knockout
 
